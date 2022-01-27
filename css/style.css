@@ -1,0 +1,275 @@
+.big{
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+.color{
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 550px ;
+    width: 285px ;
+    position: absolute;
+}
+.svg{
+    position: absolute;
+    bottom: -38px;
+    color: white;
+}
+.chat{
+    position: relative;
+    top: 80px;
+    left: 230px;
+    height: 450px;
+    width: 200px;
+    background-color: hsl(0, 0%, 100%);
+    border: 10px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 20px 5px hsla(206, 6%, 79%, .6);
+}
+.none{
+    position: absolute;
+    top: -10px;
+    left: 45px;
+    height: 20px;
+    width: 110px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+p{
+  color: hsl(276, 55%, 52%);
+}
+
+  .header{
+      position: relative;
+      height: 70px;
+      width: 200px;
+      border-radius: 15px 15px 5px 5px;
+      background: linear-gradient(to left, hsl(289, 100%, 72%),hsl(264, 100%, 61%));
+      top: 0;
+      left: 0;
+  }
+  .header h1{
+      position: absolute;
+    font-size: 16px;
+    top: 15px;
+    left: 70px;
+    color: hsl(0, 0%, 100%);
+  }
+  .header img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    left: 50px;
+    top: 23px;
+    left: 23px;
+  }
+  .header p{
+    font-size: 10px;
+    position: absolute;
+    top: 32px;
+    left: 70px;
+    color: hsl(0, 0%, 100%);
+  }
+  .container {
+    cursor: pointer;
+    position: absolute;
+    top: 32px;
+    right: 10px;
+  }
+  .arrow {
+    position: absolute;
+    border: solid hsl(0, 0%, 100%);
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    top: 35px;
+    left: 10px;
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .bar1, .bar2, .bar3 {
+    width: 2px;
+    height: 2px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 2px 0;
+    transition: 0.4s;
+  }
+  
+.chat1{
+  position: absolute;
+  height: 30px;
+  width: 125px;
+  background-color: hsl(206, 6%, 85%);
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+.chat1 p{
+  position: absolute;
+  top: -8px;
+  font-size: 10px;
+  left: 5px;
+}
+.chat2{
+  position: absolute;
+  top: 110px;
+  height: 30px;
+  width: 125px;
+  background-color: hsl(206, 6%, 85%);
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+.chat2 p{
+  position: absolute;
+  top: -10px;
+  font-size: 10px;
+  left: 5px;
+}
+.dog{
+  position: absolute;
+  direction: rtl;
+  top: 160px;
+  right: 5px;
+  width: 160px;
+}
+.dog img{
+  right: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+}
+.dog p{
+  font-size: 10px;
+  color: hsl(271, 15%, 43%);
+}
+
+.my-chat{
+  direction: ltr;
+  width: 130px;
+}
+.chat3{
+  position: absolute;
+  top: 275px;
+  height: 40px;
+  width: 125px;
+  background-color: hsl(206, 6%, 85%);
+  margin: 10px;
+  border-radius: 10px;
+}
+.chat3 p{
+  position: absolute;
+  top: -10px;
+  font-size: 10px;
+  left: 5px;
+}
+.input{
+  position: relative;
+  height: 20px;
+  width: 140px;
+  left: 10px;
+  top: 270px;
+  background: linear-gradient(to right, hsl(289, 100%, 72%), hsl(264, 100%, 61%));
+  border-radius: 10px 10px 10px 5px;
+  padding: 3px;
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+}
+.in {
+  opacity: .2;
+  position: relative;
+  background: hsl(289, 100%, 72%);
+  margin: 1px;
+  width: 1.15em;
+  height: 1.15em;
+  top: 3px;
+  border: 0.20em solid hsl(275, 100%, 72%);
+  border-radius: 50%;
+  font-size: 10px;
+}
+.input2{
+  position: relative;
+  left: 10px;
+  height: 20px;
+  width: 140px;
+  top: 280px;
+  flex-direction: column;
+  background: linear-gradient(to right, hsl(289, 100%, 72%), hsl(264, 100%, 61%));
+  border-radius: 10px 10px 10px 5px;
+  padding: 3px;
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+}
+.sp{
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.input label{
+  position: absolute;
+  top: 6px;
+}
+.input2 label{
+  position: absolute;
+  top: 6px;
+}
+.gooo{
+  position: absolute;
+  top: 35px;
+  right: -40px;
+  height: 30px;
+  width: 30px;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 50px;
+}
+.go{
+  position: absolute;
+  border: solid hsl(0, 0%, 100%);
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  right: -28px;
+  top: 46px;
+  z-index: 2;
+}
+.right{
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+}
+.des{
+  position: relative;
+  height: 120px;
+  width: 390px;
+  top: -260px;
+  left: 520px;
+}
+.des h1 {
+  color: hsl(271, 36%, 24%);
+}
+.des p{
+  color: hsl(206, 6%, 79%);
+}
+@media screen and (max-width: 375px){
+  .color{
+    left: -140px;
+    height: 470px;
+  }
+  .chat{
+    left: 60px;
+  }
+.des{
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+}
