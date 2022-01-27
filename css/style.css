@@ -254,6 +254,7 @@ p{
 }
 .des p{
   color: hsl(206, 6%, 79%);
+  font-wight: 500;
 }
 @media screen and (max-width: 375px){
   .color{
